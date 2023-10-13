@@ -1,0 +1,57 @@
+.class {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+
+.type article {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.style-me1 {
+ color:red ;
+}
+
+#style-me2 {
+ color: blue;
+}
+
+.style-me1#style-me2 {
+ color: purple;
+}
+
+.my-descendants-are-styled p {
+    background-color: red;
+}
+
+.my-children-are-styled > p {
+    background-color: red;
+}
+
+.box {
+    margin: 20px 10px 20px 10px;
+    padding: 0px 20px;
+}
+
+.text-style
+{
+    text-align: center;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: uppercase;
+    text-decoration: wavy;
+}
+a, a:link, a:visited 
+{
+    color: aquamarine;
+    font-size: large;
+    font-weight: 100;
+}
+
+.calc-style {
+    width: 100vw;
+    width:calc(100vw - 100px)
+}
